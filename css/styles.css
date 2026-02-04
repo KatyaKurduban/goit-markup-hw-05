@@ -459,3 +459,66 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+.footer-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.footer-form-wrapper {
+    display: flex;
+    gap: 24px;
+}
+.footer-form-input {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 40px;  
+    border: 1px solid #31D0AA;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Roboto";
+    background-color: transparent;
+    outline: none;
+}
+
+.footer-form-input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+.footer-form-input:placeholder-shown {
+  border-color: #fff;
+}
+
+.footer-form-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background: #4d5ae5;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background: #31D0AA;
+}
