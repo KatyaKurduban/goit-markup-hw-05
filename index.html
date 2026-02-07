@@ -430,11 +430,55 @@
                         placeholder="E-mail"
                         id="email"
                         />
-                    <button class="footer-form-btn" type="submit">Subscribe</button>
+                    <button class="footer-form-btn" type="submit">Subscribe
+                        <svg class="icon-send" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
                     </div>
                 </form>
 
         </div>    
     </footer>
+
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button class="btn-close">
+                <svg class="icon-send" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="backdrop-text">Leave your contacts and we will call you back</p>
+            <form>
+                <div class="form-wrapper">
+                    <label class="label-description" for="username">Name</label>
+                    <input class="text-field" id="username" name="user-name">
+                </div>
+                <div class="form-wrapper">
+                    <label class="label-description" for="phone">Phone</label>
+                    <input class="text-field" type="tel" id="phone" name="user-phone">
+                </div>
+                <div class="form-wrapper">
+                    <label class="label-description" for="email">Email</label>
+                    <input class="text-field" type="email" id="email" name="user-email">
+                </div>
+                <div class="form-wrapper">
+                    <label class="label-description" for="comment">Comment</label>
+                    <textarea name="user-comment" id="comment" placeholder="Text input"></textarea>
+                </div>
+                <div>
+                    <label class="label-description" for="terms">I accept the terms and conditions of the 
+                        <span class="privacy-policy">
+                            <a href="#">Privacy Policy</a>
+                        </span>
+                    </label>
+                    <input type="checkbox" id="terms" name="user-terms" value="true">
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
