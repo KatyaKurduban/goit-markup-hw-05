@@ -420,23 +420,26 @@
             </ul>
             </div>
 
-                <form class="footer-form">
-                    <label class="footer-label" for="email">Subscribe</label>
-                    <div class="footer-form-wrapper">  
-                    <input 
-                        class="footer-form-input"
-                        type="email" 
-                        name="email" 
-                        placeholder="E-mail"
-                        id="email"
-                        />
-                    <button class="footer-form-btn" type="submit">Subscribe
-                        <svg class="icon-send" width="24" height="24">
-                            <use href="./images/icons.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                    </div>
-                </form>
+                <div class="form-wrapper">
+                    <p class="form-description">Subscribe</p>  
+                    <form class="footer-form">
+                        <div class="footer-form-wrapper">  
+                        <input 
+                            class="footer-form-input"
+                            type="email" 
+                            name="email" 
+                            placeholder="E-mail"
+                            area-label="E-mail"
+                            id="e-mail"
+                            />
+                        <button class="footer-form-btn" type="submit">Subscribe
+                            <svg class="icon-send" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                        </div>
+                    </form>
+                </div>
 
         </div>    
     </footer>
@@ -482,7 +485,7 @@
                     <textarea class="comment" name="user-comment" id="comment" placeholder="Text input"></textarea>
                 </div>
                 <div>
-                    <input class="input-checkbox" type="checkbox" id="terms" name="user-terms" value="true">
+                    <input class="input-checkbox visually-hidden" type="checkbox" id="terms" name="user-terms" value="true">
                     <label class="label-terms" for="terms">
                         <span class="custom-checkbox">
                             <svg class="icon-checkbox" width="10" height="8">
