@@ -452,30 +452,51 @@
             <form>
                 <div class="form-wrapper">
                     <label class="label-description" for="username">Name</label>
-                    <input class="text-field" id="username" name="user-name">
+                    <div class="input-wrapper">
+                        <input class="text-field" id="username" name="user-name">
+                        <svg class="icon-form" width="18" height="24">
+                                <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="form-wrapper">
                     <label class="label-description" for="phone">Phone</label>
-                    <input class="text-field" type="tel" id="phone" name="user-phone">
+                    <div class="input-wrapper">
+                        <input class="text-field" type="tel" id="phone" name="user-phone">
+                        <svg class="icon-form" width="18" height="24">
+                                <use href="./images/icons.svg#icon-tel"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="form-wrapper">
                     <label class="label-description" for="email">Email</label>
-                    <input class="text-field" type="email" id="email" name="user-email">
+                    <div class="input-wrapper">
+                        <input class="text-field" type="email" id="email" name="user-email">
+                        <svg class="icon-form" width="18" height="24">
+                                <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="form-wrapper">
                     <label class="label-description" for="comment">Comment</label>
-                    <textarea name="user-comment" id="comment" placeholder="Text input"></textarea>
+                    <textarea class="comment" name="user-comment" id="comment" placeholder="Text input"></textarea>
                 </div>
                 <div>
-                    <label class="label-description" for="terms">I accept the terms and conditions of the 
+                    <input class="input-checkbox" type="checkbox" id="terms" name="user-terms" value="true">
+                    <label class="label-terms" for="terms">
+                        <span class="custom-checkbox">
+                            <svg class="icon-checkbox" width="10" height="8">
+                                <use href="./images/icons.svg#icon-true"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the 
                         <span class="privacy-policy">
                             <a href="#">Privacy Policy</a>
                         </span>
                     </label>
-                    <input type="checkbox" id="terms" name="user-terms" value="true">
                 </div>
 
-                <button type="submit">Send</button>
+                <button class="btn-modal" type="submit">Send</button>
             </form>
         </div>
     </div>
