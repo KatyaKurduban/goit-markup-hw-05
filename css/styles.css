@@ -679,6 +679,10 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-wrapper.comment {
+    margin-bottom: 16px;
+}
+
 .comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -695,10 +699,6 @@ img {
 
 .comment::placeholder {
     color: rgba(46, 47, 66, 0.4);
-}
-
-.checkbox-wrapper {
-    margin-top: 8px;
 }
 
 .input-checkbox:focus + .label-terms .custom-checkbox {
