@@ -528,6 +528,7 @@ img {
     border-radius: 4px;
     width: 165px;
     height: 40px;
+    border: none;
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -697,7 +698,7 @@ img {
 }
 
 .checkbox-wrapper {
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 .input-checkbox:focus + .label-terms .custom-checkbox {
@@ -725,7 +726,7 @@ img {
 }
 
 .privacy-policy {
-    line-height: 1.33333;
+    line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
